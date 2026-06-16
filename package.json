@@ -1,0 +1,16 @@
+{
+  "name": "95-multiplayer-party",
+  "version": "1.0.0",
+  "description": "Jeu du 95 multijoueur en ligne local avec WebSocket",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.3",
+    "socket.io": "^4.7.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
