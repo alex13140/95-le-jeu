@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: jeu-95-online
-    env: node
-    plan: free
-    buildCommand: npm install
-    startCommand: npm start
-    healthCheckPath: /health
